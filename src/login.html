@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../src/css/login.css">
+<script src="../src/script/login_module.js" type="module"></script>
+
+<body>
+
+    <!-- 登录页面 -->
+    <div class="login-box">
+        <!-- 版心盒子 -->
+        <div class="login-banner">
+            <!-- 左边空盒子文字点击跳转 -->
+            <div class="login-box-l"></div>
+            <!-- 右边登录注册盒子 -->
+            <div class="login-box-r">
+                <div class="login_1">
+                    <div class="login-tab">
+                        <span>扫码登录</span>
+                    </div>
+                    <div class="login-tab-r">
+                        <span>账户登录</span>
+                    </div>
+                </div>
+
+                <div class="loginPad">
+                    <div class="login-tip"></div>
+                    <div class="loginItem">
+                        <label>用户名</label>
+                        <input class="loginInput" id="UserName" maxlength="50" name="UserName" placeholder="邮箱/手机号" type="text" value>
+                    </div>
+                    <div class="loginItem" style="margin-bottom: 10px;">
+                        <label>密&nbsp&nbsp&nbsp码</label>
+                        <input class="loginInput" id="PassWord" maxlength="50" name="Password" placeholder="请输入密码" type="password" value>
+                    </div>
+                    <!-- 登入提示，和忘记密码 -->
+                    <div class="forgot">
+                        <div class="left">
+                            <label class="lb" for="Rember">
+                    <input id="Rember" name="Rember" type="checkbox" value="true">
+                登入永久有效
+                </label>
+                        </div>
+                        <div class="right">
+                            <a href="javascript">忘记密码</a>
+                        </div>
+                    </div>
+
+                    <button class="btn" type="submit" id="loginSubmit">登&emsp;录</button></div>
+                <!-- <div class="login-tip">
+                        <div class=" .login-error lrnotice" style="display: block;">
+                            <span></span>
+                            <i style="font-style: normal;">用户名不能为空！</i>
+                        </div>
+                        <div id="modelTip" class="lrnotice" style="display: none;">
+                            <span></span>
+                            <span class="field-validation-valid" data-valmsg-for="tip" data-valmsg-replace="true"></span>
+                        </div>
+                    </div> -->
+
+                <div class="login-buttom">
+                    <div class="login-f-l">
+                        <a href="javascript">立即注册</a>
+                    </div>
+                    <div class="login-f-r">
+                        <a href="javascript">短信验证码登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

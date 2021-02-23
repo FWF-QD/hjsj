@@ -1,0 +1,177 @@
+    @charset "UTF-8";
+    clearfix:after {
+        content: "";
+        height: 0;
+        clear: both;
+        overflow: hidden;
+        display: block;
+        visibility: hidden;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .lr {
+        width: 978px;
+        margin: 30px auto;
+        background-color: #f8f8f8
+    }
+    
+    .lr .lg-tit {
+        padding: 25px 0 16px 0;
+        text-align: center;
+        border-bottom: 1px dashed #ddd;
+        font-size: 14px;
+        font-family: "微软雅黑", "Microsoft YaHei";
+        line-height: 26px;
+    }
+    
+    .lr .lg-tit h1 {
+        display: inline;
+    }
+    
+    form,
+    ul,
+    li,
+    dl,
+    dt,
+    dd,
+    ol,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    input {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        outline: none;
+    }
+    
+    .lgPad {
+        padding: 30px 50px 50px 300px;
+        font-size: 14px;
+    }
+    
+    .lgError {
+        border: 1px solid #ac1630;
+    }
+    
+    .lgItem {
+        position: relative;
+        z-index: 10;
+        width: 400px;
+        height: 50px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        font-family: "Microsoft YaHei";
+        margin-bottom: 34px;
+        .cw {
+            display: none;
+        }
+        em {
+            display: inline-block;
+            width: 17px;
+            height: 22px;
+            background: url(../img/sprite.png) no-repeat;
+            background-position: -65px -165px;
+            vertical-align: middle;
+            visibility: hidden;
+        }
+        i {
+            display: inline-block;
+            width: 17px;
+            height: 22px;
+            background: url(../img/sprite.png) no-repeat;
+            background-position: -44px -162px;
+            vertical-align: middle;
+            visibility: hidden;
+        }
+        span {
+            vertical-align: middle;
+            line-height: 30px;
+        }
+    }
+    
+    .lgItem label {
+        float: left;
+        display: block;
+        width: 90px;
+        padding-left: 20px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+    
+    .lgtxt {
+        display: inline-block;
+        position: absolute;
+        z-index: 2;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+        color: #aaa;
+        top: 0px;
+    }
+    
+    %lgInput {
+        width: 252px;
+        height: 19px;
+        padding: 16px 0 15px;
+        border: 0px;
+        outline: 0;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+    }
+    
+    .phone {
+        @extend %lgInput;
+    }
+    
+    .email {
+        @extend %lgInput;
+    }
+    
+    .password {
+        @extend %lgInput;
+    }
+    
+    .repass {
+        @extend %lgInput;
+    }
+    
+    //cbox复选框
+    .cbox {
+        padding: 10px 0 0 0;
+        span {
+            vertical-align: middle;
+            font-size: 14px;
+        }
+        .xy {
+            color: blue;
+        }
+    }
+    
+    .cbox-1 {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    .btn {
+        width: 402px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #ac1630;
+        color: #fff;
+        font-size: 18px;
+        font-family: "Microsoft YaHei";
+        border: 0px;
+        cursor: pointer;
+        margin-top: 30px;
+    }

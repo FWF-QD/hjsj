@@ -1,0 +1,368 @@
+@charset "UTF-8";
+.clearfix:after {
+  content: "";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+
+body {
+  font-size: 12px;
+  font-family: Arial, Helvetica, "宋体";
+  background-color: #fff;
+}
+
+a {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.top {
+  width: 1190px;
+  height: 28px;
+  margin: 0 auto;
+}
+.top .top_l {
+  float: left;
+}
+.top .top_l li {
+  margin-right: 5px;
+  float: left;
+  line-height: 28px;
+  font-family: "宋体";
+}
+.top .top_r {
+  float: right;
+}
+.top .top_r li {
+  line-height: 28px;
+  float: left;
+  padding: 0 8px;
+  font-family: "宋体";
+}
+.top .top_r span {
+  float: left;
+  line-height: 28px;
+  font-family: Arial, Helvetica, "宋体";
+  margin: 0 3px 0 3px;
+}
+.top .top_r span .img1 {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.top .telnum {
+  font-size: 16px;
+  color: #2057b3;
+  font-weight: bold;
+}
+
+.webtop {
+  width: 1190px;
+  margin: 0 auto;
+}
+.webtop .log5 {
+  margin: 40px 60px 40px 0;
+  float: left;
+}
+.webtop .inpS {
+  float: left;
+  position: relative;
+  width: 430px;
+  height: 38px;
+  border: 1px solid #e6e6e6;
+  box-shadow: inset 1px 1px 5px #f3f3f3;
+  padding: 0px 8px 0px 8px;
+  margin-top: 45px;
+}
+.webtop .inpS input {
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  z-index: 5;
+  width: 342px;
+  height: 24px;
+  border: 0px;
+  outline: none;
+  background: transparent;
+}
+
+.s-btn {
+  float: right;
+  position: relative;
+  top: 0px;
+  width: 70px;
+  height: 38px;
+  background-color: #e6e6e6;
+  position: absolute;
+  right: 0;
+}
+.s-btn .s-fdj {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 10px;
+  left: 24px;
+  z-index: 1;
+  background-position: 0px 0px;
+  background: url(https://image.wine-world.com/images/sprite.png) no-repeat;
+}
+.s-btn .buts {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav {
+  width: 100%;
+  line-height: 40px;
+  background-color: #222e52;
+}
+.nav .bx {
+  width: 1190px;
+  margin: 0 auto;
+}
+.nav .nav-l {
+  float: left;
+  width: 225px;
+  height: 40px;
+  position: relative;
+  background-color: #700e21;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav .nav-l a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav .nav-l .theico {
+  position: absolute;
+  top: 18px;
+  left: 155px;
+  display: inline-block;
+  margin-right: 9px;
+  width: 12px;
+  height: 7px;
+  background: url(https://image.wine-world.com/images/sprite.png) no-repeat -26px -190px;
+}
+
+.nav-r {
+  width: 965px;
+  float: left;
+}
+.nav-r .a1 {
+  float: left;
+  display: inline-block;
+  background-color: #ac1630;
+  padding: 0 14px;
+}
+.nav-r .a1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-r li {
+  float: left;
+  position: relative;
+}
+.nav-r li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 25px 0 15px;
+}
+
+.nav-r .extico {
+  background: url(https://image.wine-world.com/images/sprite.png) no-repeat;
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  width: 7px;
+  height: 5px;
+  background-position: -113px -150px;
+}
+
+.nav-but {
+  margin: 0 auto;
+  width: 1190px;
+  height: 330px;
+}
+.nav-but .but-t {
+  padding: 10px 0px 10px 9px;
+  width: 216px;
+  height: 316px;
+  background-color: #3b4976;
+  float: left;
+}
+.nav-but .but-t .but1 li {
+  float: left;
+  padding: 6px 0px 6px 5px;
+}
+.nav-but .but-t .but1 li a {
+  text-decoration: none;
+  padding: 0 9px 0 0;
+  color: #e7e9ee;
+  line-height: 5px;
+}
+
+.but1 {
+  position: relative;
+  border-bottom: dashed 1px gray;
+}
+.but1 .zt {
+  padding: 0 0 6px 5px;
+  color: #e7e9ee;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.but2 {
+  border-bottom: dashed 1px gray;
+  position: relative;
+}
+.but2 .zt {
+  padding: 0 5px 6px 5px;
+  color: #e7e9ee;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  float: left;
+}
+.but2 li {
+  float: left;
+  color: #e7e9ee;
+  padding: 0 9px 0 0;
+  line-height: 24px;
+}
+.but2 li a {
+  font-size: 12px;
+  color: #e7e9ee;
+  text-decoration: none;
+}
+
+.but3 {
+  line-height: 50px;
+}
+.but3 .zt {
+  padding: 0 5px 6px 5px;
+  color: #e7e9ee;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  float: left;
+}
+.but3 li {
+  float: left;
+  color: #e7e9ee;
+  padding: 0 9px 0 0;
+  line-height: 50px;
+}
+.but3 li a {
+  font-size: 12px;
+  color: #e7e9ee;
+  text-decoration: none;
+}
+
+.cartlist {
+  width: 745px;
+  height: 325px;
+  background: #eaedf4;
+  position: absolute;
+  top: -10px;
+  left: 215px;
+  display: none;
+  text-decoration: underline;
+  display: none;
+  z-index: 9999;
+}
+
+.cartlist2 {
+  width: 300px;
+  height: 325px;
+  background: #eaedf4;
+  position: absolute;
+  top: -166px;
+  left: 215px;
+  display: none;
+  z-index: 9999;
+}
+
+.cartlist3 {
+  width: 300px;
+  height: 325px;
+  background: #eaedf4;
+  position: absolute;
+  top: -245px;
+  left: 215px;
+  display: none;
+  z-index: 9999;
+}
+
+.lbt {
+  float: left;
+  position: relative;
+  cursor: pointer;
+  width: 965px;
+  height: 338px;
+  overflow: hidden;
+}
+.lbt ul {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+}
+.lbt ul li {
+  float: left;
+}
+
+.lbt ol {
+  width: 220px;
+  height: 20px;
+  position: absolute;
+  left: 865px;
+  bottom: 10px;
+}
+.lbt ol li {
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  float: left;
+  margin-right: 10px;
+  text-indent: -999em;
+  cursor: pointer;
+}
+.lbt .active {
+  background-color: #d10000;
+}
+
+/*# sourceMappingURL=header.css.map */

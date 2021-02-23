@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/css/registry.css">
+    <script src="../src/script/registry.js" type="module"></script>
+</head>
+
+<body>
+    <div class="lr">
+        <form action="http://10.31.165.67/HJSJ/php/reg.php" class="box" method="POST">
+            <!-- 注册提示 -->
+            <div class="lg-tit">
+                <h1 style="margin-right: 10px;font-weight:normal;">注册</h1>
+                <span>已有账号？<a href="">立即登录</a> </span>
+            </div>
+            <!-- 表单验证 -->
+            <div class="lgPad">
+                <!-- 手机验证 -->
+                <div class="lgItem ">
+                    <label>手&nbsp;机&nbsp;号</label>
+                    <input class="phone" name="tel" id="tel" maxlength="13" placeholder="请输入手机号">
+
+                    <em></em>
+                    <i></i>
+                    <span></span>
+
+                </div>
+                <!-- 邮箱注册 -->
+                <div class="lgItem">
+                    <label>邮箱注册</label>
+                    <input class="email" name="email" maxlength="20" placeholder="请输入邮箱">
+
+                    <em></em>
+                    <i></i>
+                    <span></span>
+
+                </div>
+                <!-- 确认密码 -->
+                <div class="lgItem">
+                    <label>设置密码</label>
+                    <input type="password" class="password" name="password" maxlength="16" placeholder="请至少输入6位字符，区分大小写">
+                    <em></em>
+                    <i></i>
+                    <span></span>
+                </div>
+                <!-- 密码确认 -->
+                <div class="lgItem">
+                    <label>确认密码</label>
+                    <input type="password" class="repass" name="repass" id="repass" maxlength="13" placeholder="请再次输入密码">
+
+                    <em></em>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+                <!-- 复选框 -->
+                <div class="cbox">
+                    <input class="cbox-1" type="checkbox">
+                    <span>我已阅读并同意</span>
+                    <span class="xy">《使用协议》</span>
+                    <span class="xy">《隐私权政策》</span>
+                </div>
+                <input type="submit" class="btn" name="submit" value="立即注册">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
